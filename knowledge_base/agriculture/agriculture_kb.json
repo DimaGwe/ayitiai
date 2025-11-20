@@ -1,0 +1,139 @@
+{
+  "techniques": [
+    {
+      "ht": "Agrikilti dirab pou tè ayisyen: Itilize teknik konpanyon plante pou amelyore kalite tè a. Plante legim ak pwa ansanm ka ede fikse azòt nan tè a.",
+      "en": "Sustainable farming for Haitian soil: Use companion planting techniques to improve soil quality. Planting vegetables with beans together can help fix nitrogen in the soil.",
+      "fr": "Agriculture durable pour les sols haïtiens: Utilisez des techniques de plantation compagnonne pour améliorer la qualité du sol. Planter des légumes avec des haricots peut aider à fixer l'azote dans le sol."
+    },
+    {
+      "ht": "Konsève dlo nan jaden: Kreye ti kanal pou rekipere dlo lapli. Kouvri tè a ak pay oswa fèy pou diminye evaporasyon.",
+      "en": "Water conservation in gardens: Create small channels to collect rainwater. Cover soil with straw or leaves to reduce evaporation.",
+      "fr": "Conservation de l'eau dans les jardins: Créez de petits canaux pour collecter l'eau de pluie. Couvrez le sol avec de la paille ou des feuilles pour réduire l'évaporation."
+    },
+    {
+      "ht": "Kontwòl ensèk san pwodui chimik: Itilize melanj piman ak savon pou chase ensèk. Plante fle tankou mari gòld ki repouse ensèk.",
+      "en": "Organic pest control: Use a mixture of hot pepper and soap to repel insects. Plant flowers like marigolds that repel pests.",
+      "fr": "Contrôle organique des ravageurs: Utilisez un mélange de piment fort et de savon pour repousser les insectes. Plantez des fleurs comme les soucis qui repoussent les parasites."
+    },
+    {
+      "ht": "Amelyore tè a ak konpòs: Melanje fèy mouri, res manje, ak fimye bèt pou fè angrè natirèl. Sa ka ogmante pwodiktivite jaden an.",
+      "en": "Improve soil with compost: Mix dead leaves, food scraps, and animal manure to make natural fertilizer. This can increase garden productivity.",
+      "fr": "Améliorer le sol avec du compost: Mélangez des feuilles mortes, des restes de nourriture et du fumier animal pour faire de l'engrais naturel. Cela peut augmenter la productivité du jardin."
+    },
+    {
+      "ht": "Pwoteje tè kont erozyon: Plante pyebwa sou mòn nan. Kreye tera pou diminye koule dlo. Sa ede konsève tè fertil la.",
+      "en": "Protect soil from erosion: Plant trees on hillsides. Create terraces to slow water runoff. This helps preserve fertile soil.",
+      "fr": "Protéger le sol contre l'érosion: Plantez des arbres sur les pentes. Créez des terrasses pour ralentir le ruissellement de l'eau. Cela aide à préserver le sol fertile."
+    }
+  ],
+  "crops": [
+    {
+      "ht": "Manyòk (Cassava): Plante manyòk nan tè byen drene. Li ka tolere sechrès men li bezwen 8-12 mwa pou mi. Rekòlte lè fèy yo kòmanse jòni.",
+      "en": "Cassava: Plant cassava in well-drained soil. It can tolerate drought but needs 8-12 months to mature. Harvest when leaves start yellowing.",
+      "fr": "Manioc: Plantez le manioc dans un sol bien drainé. Il peut tolérer la sécheresse mais nécessite 8-12 mois pour mûrir. Récoltez lorsque les feuilles commencent à jaunir."
+    },
+    {
+      "ht": "Bannann (Plantain): Bezwen anpil dlo ak tè rich. Plante nan zòn ki gen lonbray. Koupe rejeton yo pou plante nouvo pye.",
+      "en": "Plantain: Needs plenty of water and rich soil. Plant in areas with shade. Cut suckers for new plantings.",
+      "fr": "Banane plantain: Nécessite beaucoup d'eau et un sol riche. Plantez dans des zones ombragées. Coupez les drageons pour de nouvelles plantations."
+    },
+    {
+      "ht": "Mayi: Plante apre dènye lapli prentan. Mete 2-3 grenn nan yon twou. Rekòlte lè grenn yo di. Bon pou manje ak vann nan mache.",
+      "en": "Corn: Plant after last spring rain. Put 2-3 seeds in one hole. Harvest when kernels are hard. Good for eating and selling at market.",
+      "fr": "Maïs: Plantez après la dernière pluie de printemps. Mettez 2-3 graines dans un trou. Récoltez lorsque les grains sont durs. Bon pour manger et vendre au marché."
+    },
+    {
+      "ht": "Kafe: Pwodwi ekspò enpòtan pou Ayiti. Plante nan altitid 600-1200 mèt. Bezwen lonbray ak tè asid. Rekòlte griyo wouj ki mi.",
+      "en": "Coffee: Important export product for Haiti. Plant at 600-1200 meter elevation. Needs shade and acidic soil. Harvest red ripe cherries.",
+      "fr": "Café: Produit d'exportation important pour Haïti. Plantez à une altitude de 600-1200 mètres. Nécessite de l'ombre et un sol acide. Récoltez les cerises mûres rouges."
+    },
+    {
+      "ht": "Mango: Pyebwa ki bay bon pwofitab. Plante nan sezon lapli. Bezwen 3-5 lane pou kòmanse pwodwi. Vann nan mache lokal oswa ekspòte.",
+      "en": "Mango: Profitable fruit tree. Plant during rainy season. Takes 3-5 years to start producing. Sell at local market or export.",
+      "fr": "Mangue: Arbre fruitier rentable. Plantez pendant la saison des pluies. Prend 3-5 ans pour commencer à produire. Vendez au marché local ou exportez."
+    }
+  ],
+  "challenges": [
+    {
+      "ht": "Adaptasyon ak sechrès: Chwazi plant rezistan tankou sògò, manyòk, ak pwa kongo. Kolekte dlo lapli nan barik. Itilize irigazyon gout-a-gout.",
+      "en": "Drought adaptation: Choose resistant crops like sorghum, cassava, and pigeon peas. Collect rainwater in barrels. Use drip irrigation.",
+      "fr": "Adaptation à la sécheresse: Choisissez des cultures résistantes comme le sorgho, le manioc et les pois d'Angole. Collectez l'eau de pluie dans des barils. Utilisez l'irrigation goutte à goutte."
+    },
+    {
+      "ht": "Prevansyon erozyon tè: Plante pyebwa fwi sou kolin. Fè tera. Itilize teknik agroforestri. Plante vetivè pou kenbe tè a.",
+      "en": "Soil erosion prevention: Plant fruit trees on hillsides. Build terraces. Use agroforestry techniques. Plant vetiver grass to hold soil.",
+      "fr": "Prévention de l'érosion du sol: Plantez des arbres fruitiers sur les pentes. Construisez des terrasses. Utilisez des techniques d'agroforesterie. Plantez de l'herbe de vétiver pour retenir le sol."
+    },
+    {
+      "ht": "Diminye pèt apre rekòt: Seche pwodwi nan solèy. Itilize sak pwòp pou stockaj. Vann rapid nan koperativ lokal. Konvèti an pwodwi transfòme.",
+      "en": "Reduce post-harvest losses: Dry produce in sun. Use clean bags for storage. Sell quickly through local cooperatives. Convert to processed products.",
+      "fr": "Réduire les pertes après récolte: Séchez les produits au soleil. Utilisez des sacs propres pour le stockage. Vendez rapidement via des coopératives locales. Convertissez en produits transformés."
+    },
+    {
+      "ht": "Aksè nan mache: Òganize gwoup kiltivatè. Pataje transpò. Negosye pri ansanm. Chèche kontak ak machann lavil.",
+      "en": "Market access: Organize farmer groups. Share transportation. Negotiate prices together. Seek contacts with city merchants.",
+      "fr": "Accès au marché: Organisez des groupes d'agriculteurs. Partagez le transport. Négociez les prix ensemble. Cherchez des contacts avec les marchands de la ville."
+    }
+  ],
+  "resources": [
+    {
+      "ht": "Founisè lokal: Kontakte koperativ agrikòl lokal yo pou semans ak zouti. Chèche asistans nan MARNDR (Ministè Agrikilti).",
+      "en": "Local suppliers: Contact local agricultural cooperatives for seeds and tools. Seek assistance from MARNDR (Ministry of Agriculture).",
+      "fr": "Fournisseurs locaux: Contactez les coopératives agricoles locales pour les semences et outils. Demandez l'assistance du MARNDR (Ministère de l'Agriculture)."
+    },
+    {
+      "ht": "Pwogram gouvènman: Pwogram sipò pou ti kiltivatè. Fòmasyon gratis sou agrikilti dirab. Kredi pou achte materyèl.",
+      "en": "Government programs: Support programs for small farmers. Free training on sustainable agriculture. Credit for purchasing materials.",
+      "fr": "Programmes gouvernementaux: Programmes de soutien pour les petits agriculteurs. Formation gratuite sur l'agriculture durable. Crédit pour l'achat de matériel."
+    },
+    {
+      "ht": "Sipò ONG: Òganizasyon tankou USAID, FAO, ak gwoup lokal bay fòmasyon ak materyèl. Chèche enfòmasyon nan biwo lokal yo.",
+      "en": "NGO support: Organizations like USAID, FAO, and local groups provide training and materials. Seek information at their local offices.",
+      "fr": "Soutien des ONG: Des organisations comme l'USAID, la FAO et des groupes locaux fournissent formation et matériel. Cherchez des informations dans leurs bureaux locaux."
+    },
+    {
+      "ht": "Pwogram fòmasyon: Lekòl agrikòl Damien, FONHDILAC, ak sant fòmasyon lokal ofri kou pou amelyore teknik agrikòl.",
+      "en": "Training programs: Damien Agricultural School, FONHDILAC, and local training centers offer courses to improve agricultural techniques.",
+      "fr": "Programmes de formation: L'École Agricole Damien, FONHDILAC et les centres de formation locaux offrent des cours pour améliorer les techniques agricoles."
+    }
+  ],
+  "best_practices": [
+    {
+      "ht": "Rotasyon kilti: Chanje tip plant chak sezon. Alètene legim, sereyal, ak legimino. Sa ede kenbe tè a an sante.",
+      "en": "Crop rotation: Change crop types each season. Alternate vegetables, cereals, and legumes. This helps keep soil healthy.",
+      "fr": "Rotation des cultures: Changez les types de cultures chaque saison. Alternez légumes, céréales et légumineuses. Cela aide à garder le sol en bonne santé."
+    },
+    {
+      "ht": "Elavasyon bèt entegre: Konbine jaden ak elavaj poul, kabrit, oswa kochon. Fimye yo bay angrè pou jaden an.",
+      "en": "Integrated livestock: Combine gardening with raising chickens, goats, or pigs. Their manure provides fertilizer for the garden.",
+      "fr": "Élevage intégré: Combinez le jardinage avec l'élevage de poulets, chèvres ou cochons. Leur fumier fournit de l'engrais pour le jardin."
+    },
+    {
+      "ht": "Itilizasyon dlo efikas: Wouze nan maten oswa aswè. Itilize paya pou konsève imidite. Rekipere dlo lapli.",
+      "en": "Efficient water use: Water in morning or evening. Use mulch to conserve moisture. Collect rainwater.",
+      "fr": "Utilisation efficace de l'eau: Arrosez le matin ou le soir. Utilisez du paillis pour conserver l'humidité. Collectez l'eau de pluie."
+    }
+  ],
+  "seasonal_calendar": [
+    {
+      "ht": "Prentan (Mas-Me): Plante mayi, pwa, ak legim. Prepare tè a pou sezon lapli.",
+      "en": "Spring (Mar-May): Plant corn, beans, and vegetables. Prepare soil for rainy season.",
+      "fr": "Printemps (Mar-Mai): Plantez maïs, haricots et légumes. Préparez le sol pour la saison des pluies."
+    },
+    {
+      "ht": "Lete (Jen-Out): Rekòlt prentan. Plante dezyèm rekòt. Kontrole move zèb.",
+      "en": "Summer (Jun-Aug): Harvest spring crops. Plant second crop. Control weeds.",
+      "fr": "Été (Juin-Août): Récoltez les cultures de printemps. Plantez une deuxième récolte. Contrôlez les mauvaises herbes."
+    },
+    {
+      "ht": "Lotòn (Sep-Nov): Rekòlt dezyèm sezon. Prepare tè pou sezon sèk. Stocke semans.",
+      "en": "Fall (Sep-Nov): Harvest second season. Prepare soil for dry season. Store seeds.",
+      "fr": "Automne (Sep-Nov): Récoltez la deuxième saison. Préparez le sol pour la saison sèche. Stockez les semences."
+    },
+    {
+      "ht": "Livè (Des-Fev): Plante kilti rezistan sechrès. Fè antretyen zouti. Planifye pou pwochen sezon.",
+      "en": "Winter (Dec-Feb): Plant drought-resistant crops. Maintain tools. Plan for next season.",
+      "fr": "Hiver (Déc-Fév): Plantez des cultures résistantes à la sécheresse. Entretenez les outils. Planifiez pour la prochaine saison."
+    }
+  ]
+}
