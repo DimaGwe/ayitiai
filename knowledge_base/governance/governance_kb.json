@@ -1,0 +1,135 @@
+{
+  "civic_participation": [
+    {
+      "ht": "Dwa ak responsabilite sitwayen: Chak sitwayen gen dwa pou vòte, pale, patisipe nan desizyon kominotè. Responsablite: respekte lwa, peye taks, patisipe nan devlòpman kominote.",
+      "en": "Citizen rights and responsibilities: Every citizen has the right to vote, speak, participate in community decisions. Responsibilities: respect laws, pay taxes, participate in community development.",
+      "fr": "Droits et responsabilités des citoyens: Chaque citoyen a le droit de voter, de parler, de participer aux décisions communautaires. Responsabilités: respecter les lois, payer les impôts, participer au développement communautaire."
+    },
+    {
+      "ht": "Patisipasyon elektoral: Enskri pou vòte. Jwenn kat elektoral. Konnen kandida yo ak pwogram yo. Vote nan eleksyon lokal ak nasyonal. Sèvi kòm obsèvatè elektoral.",
+      "en": "Electoral participation: Register to vote. Get electoral card. Know candidates and their programs. Vote in local and national elections. Serve as electoral observer.",
+      "fr": "Participation électorale: Inscrivez-vous pour voter. Obtenez une carte électorale. Connaissez les candidats et leurs programmes. Votez aux élections locales et nationales. Servez d'observateur électoral."
+    },
+    {
+      "ht": "Òganizasyon kominotè: Kreye asosyasyon kominotè. Enskri asosyasyon legalman. Òganize reyinyon regilyè. Travay ansanm pou rezoud pwoblèm. Kolabore ak otorite lokal.",
+      "en": "Community organizing: Create community associations. Register association legally. Organize regular meetings. Work together to solve problems. Collaborate with local authorities.",
+      "fr": "Organisation communautaire: Créez des associations communautaires. Enregistrez l'association légalement. Organisez des réunions régulières. Travaillez ensemble pour résoudre les problèmes. Collaborez avec les autorités locales."
+    }
+  ],
+  "local_government": [
+    {
+      "ht": "Fonksyon gouvènman lokal: Kòmandman seksyon (CASEC), Asanble Minisipal, Majistra. Responsab sèvis lokal: wout, dlo, elektrisite, jesyon tè, rezoud konfli.",
+      "en": "Local government functions: Section Chiefs (CASEC), Municipal Assembly, Magistrate. Responsible for local services: roads, water, electricity, land management, conflict resolution.",
+      "fr": "Fonctions du gouvernement local: Chefs de section (CASEC), Assemblée municipale, Magistrat. Responsable des services locaux: routes, eau, électricité, gestion foncière, résolution de conflits."
+    },
+    {
+      "ht": "Kijan pou jwenn sèvis: Ale nan Mairie pou sètifika, pèmi konstriksyon, deklarasyon nesans. Ale kay CASEC pou tè, konfli lokal. Kenbe resepsyon dokiman.",
+      "en": "How to access services: Go to Mayor's office for certificates, building permits, birth declarations. Go to CASEC for land, local conflicts. Keep document receipts.",
+      "fr": "Comment accéder aux services: Allez à la Mairie pour les certificats, permis de construire, déclarations de naissance. Allez au CASEC pour les terres, conflits locaux. Gardez les reçus de documents."
+    },
+    {
+      "ht": "Responsablite sitwayen: Patisipe nan reyinyon kominotè. Bay opinyon sou pwojè lokal. Rapòte pwoblèm bay otorite. Travay avèk lòt sitwayen pou amelyore kominote.",
+      "en": "Citizen accountability: Participate in community meetings. Give opinions on local projects. Report problems to authorities. Work with other citizens to improve community.",
+      "fr": "Responsabilité citoyenne: Participez aux réunions communautaires. Donnez des opinions sur les projets locaux. Signalez les problèmes aux autorités. Travaillez avec d'autres citoyens pour améliorer la communauté."
+    }
+  ],
+  "legal_rights": [
+    {
+      "ht": "Dwa fondamantal: Dwa pou lavi, libète, sekirite. Egalite devan lwa. Libète ekspresyon ak asosyasyon. Pwoteksyon kont diskriminasyon. Aksè nan jistis.",
+      "en": "Fundamental rights: Right to life, liberty, security. Equality before law. Freedom of expression and association. Protection against discrimination. Access to justice.",
+      "fr": "Droits fondamentaux: Droit à la vie, à la liberté, à la sécurité. Égalité devant la loi. Liberté d'expression et d'association. Protection contre la discrimination. Accès à la justice."
+    },
+    {
+      "ht": "Dwa pou tè: Kenbe dokiman tè byen. Enskri tè nan Archives. Respekte limit vwazen. Rezoud konfli tè ak dyalòg. Chèche sipò legal si bezwen.",
+      "en": "Land rights: Keep land documents safe. Register land at Archives. Respect neighbor boundaries. Resolve land conflicts with dialogue. Seek legal support if needed.",
+      "fr": "Droits fonciers: Gardez les documents fonciers en sécurité. Enregistrez les terres aux Archives. Respectez les limites des voisins. Résolvez les conflits fonciers par le dialogue. Cherchez un soutien juridique si nécessaire."
+    },
+    {
+      "ht": "Aksè nan jistis: Ale tribinal pou pwoblèm legal. Jwenn avoka si ka a grav. Kèk sèvis legal gratis disponib. Respekte pwosedi tribinal. Kenbe tout dokiman.",
+      "en": "Access to justice: Go to court for legal problems. Get lawyer if case is serious. Some free legal services available. Respect court procedures. Keep all documents.",
+      "fr": "Accès à la justice: Allez au tribunal pour les problèmes juridiques. Obtenez un avocat si le cas est grave. Certains services juridiques gratuits disponibles. Respectez les procédures judiciaires. Gardez tous les documents."
+    }
+  ],
+  "public_services": [
+    {
+      "ht": "Sètifika ak dokiman: Sètifika nesans, batèm, maryaj nan Mairie. Pèmi konstriksyon. Kat idantite (CIN). Paspò. Kenbe kopi tout dokiman enpòtan.",
+      "en": "Certificates and documents: Birth, baptism, marriage certificates at Mayor's office. Building permits. ID card (CIN). Passport. Keep copies of all important documents.",
+      "fr": "Certificats et documents: Certificats de naissance, baptême, mariage à la Mairie. Permis de construire. Carte d'identité (CIN). Passeport. Gardez des copies de tous les documents importants."
+    },
+    {
+      "ht": "Edikasyon piblik: Lekòl piblik gratis. Enskri timoun nan lekòl. Patisipe nan reyinyon paran-pwofesè. Sipòte edikasyon timoun. Chèche bous etid disponib.",
+      "en": "Public education: Free public schools. Enroll children in school. Participate in parent-teacher meetings. Support children's education. Seek available scholarships.",
+      "fr": "Éducation publique: Écoles publiques gratuites. Inscrivez les enfants à l'école. Participez aux réunions parents-enseignants. Soutenez l'éducation des enfants. Cherchez des bourses disponibles."
+    },
+    {
+      "ht": "Sante piblik: Lopital piblik, sant sante kominotè. Vaksinasyon gratis pou timoun. Klinik prenatal pou fanm ansent. Ale lopital pou maladi grav. Jwenn kat sante.",
+      "en": "Public health: Public hospitals, community health centers. Free vaccination for children. Prenatal clinics for pregnant women. Go to hospital for serious illness. Get health card.",
+      "fr": "Santé publique: Hôpitaux publics, centres de santé communautaires. Vaccination gratuite pour les enfants. Cliniques prénatales pour femmes enceintes. Allez à l'hôpital pour maladie grave. Obtenez une carte de santé."
+    }
+  ],
+  "regulations": [
+    {
+      "ht": "Règleman konstriksyon: Jwenn pèmi anvan konstwi. Respekte distans minimòm ak vwazen. Swiv kòd konstriksyon lokal. Respekte règ anviwònman. Evite konstwi nan zòn danjere.",
+      "en": "Construction regulations: Get permit before building. Respect minimum distance from neighbors. Follow local building codes. Respect environmental rules. Avoid building in dangerous zones.",
+      "fr": "Réglementations de construction: Obtenez un permis avant de construire. Respectez la distance minimale des voisins. Suivez les codes du bâtiment locaux. Respectez les règles environnementales. Évitez de construire dans des zones dangereuses."
+    },
+    {
+      "ht": "Règ komeès: Enskri biznis nan MEF. Peye taks komeès. Kenbe liv kont. Swiv règ san ak sekirite. Respekte dwa konsomatè.",
+      "en": "Commerce rules: Register business at MEF. Pay commerce taxes. Keep account books. Follow health and safety rules. Respect consumer rights.",
+      "fr": "Règles du commerce: Enregistrez l'entreprise au MEF. Payez les taxes commerciales. Tenez des livres de comptes. Suivez les règles de santé et de sécurité. Respectez les droits des consommateurs."
+    },
+    {
+      "ht": "Pwoteksyon anviwònman: Pa jete fatra nan rivyè. Pa koupe pyebwa san pèmi. Respekte zòn pwoteje. Patisipe nan rebwazman. Rapòte destriksyon anviwònman.",
+      "en": "Environmental protection: Don't throw garbage in rivers. Don't cut trees without permit. Respect protected zones. Participate in reforestation. Report environmental destruction.",
+      "fr": "Protection de l'environnement: Ne jetez pas de déchets dans les rivières. Ne coupez pas d'arbres sans permis. Respectez les zones protégées. Participez au reboisement. Signalez la destruction environnementale."
+    }
+  ],
+  "conflict_resolution": [
+    {
+      "ht": "Rezoud konfli nan kominote: Pale ak moun ou gen pwoblèm avèk li. Chèche mediasyon - ansyen, lidè kominotè. Respekte desizyon kominote. Evite vyolans. Ale tribinal si pa rezoud.",
+      "en": "Resolve conflicts in community: Talk with person you have problem with. Seek mediation - elders, community leaders. Respect community decisions. Avoid violence. Go to court if not resolved.",
+      "fr": "Résoudre les conflits dans la communauté: Parlez avec la personne avec qui vous avez un problème. Cherchez la médiation - anciens, leaders communautaires. Respectez les décisions communautaires. Évitez la violence. Allez au tribunal si non résolu."
+    },
+    {
+      "ht": "Mediasyon: Chwazi moun respekte kòm medyatè. Chak pati eksplike pwoblèm. Chèche solisyon ki bon pou tout moun. Ekri akò. Swiv akò a.",
+      "en": "Mediation: Choose respected person as mediator. Each party explains problem. Seek solution good for everyone. Write agreement. Follow agreement.",
+      "fr": "Médiation: Choisissez une personne respectée comme médiateur. Chaque partie explique le problème. Cherchez une solution bonne pour tous. Écrivez l'accord. Suivez l'accord."
+    }
+  ],
+  "transparency": [
+    {
+      "ht": "Akontabilite gouvènman: Sitwayen gen dwa konnen kijan lajan piblik depanse. Mande rapò ak dokiman piblik. Patisipe nan reyinyon piblik. Rapòte koripsyon.",
+      "en": "Government accountability: Citizens have right to know how public money is spent. Request public reports and documents. Participate in public meetings. Report corruption.",
+      "fr": "Responsabilité gouvernementale: Les citoyens ont le droit de savoir comment l'argent public est dépensé. Demandez des rapports et documents publics. Participez aux réunions publiques. Signalez la corruption."
+    },
+    {
+      "ht": "Konbat koripsyon: Pa bay oswa aksepte pòdvin. Rapòte koripsyon bay ULCC. Sipòte òganizasyon ki lite kont koripsyon. Egzije transparans.",
+      "en": "Fight corruption: Don't give or accept bribes. Report corruption to ULCC. Support organizations fighting corruption. Demand transparency.",
+      "fr": "Lutter contre la corruption: Ne donnez ni n'acceptez de pots-de-vin. Signalez la corruption à l'ULCC. Soutenez les organisations luttant contre la corruption. Exigez la transparence."
+    }
+  ],
+  "resources": [
+    {
+      "ht": "Òganizasyon sipò: Ministè Jistis, Mairie lokal, CASEC, ULCC (Inite lit kont koripsyon), RNDDH (Rezo Nasyonal Defans Dwa Moun), òganizasyon legal gratis.",
+      "en": "Support organizations: Ministry of Justice, local Mayor's office, CASEC, ULCC (Anti-Corruption Unit), RNDDH (National Network for Defense of Human Rights), free legal organizations.",
+      "fr": "Organisations de soutien: Ministère de la Justice, Mairie locale, CASEC, ULCC (Unité de Lutte Contre la Corruption), RNDDH (Réseau National de Défense des Droits Humains), organisations juridiques gratuites."
+    },
+    {
+      "ht": "Enfòmasyon legal: Radyo kominotè pou enfòmasyon. Sesyon enfòmasyon nan Mairie. Konsiltasyon avèk paralegal. Bibliyotèk legal kominotè.",
+      "en": "Legal information: Community radio for information. Information sessions at Mayor's office. Consultation with paralegals. Community legal libraries.",
+      "fr": "Information juridique: Radio communautaire pour l'information. Sessions d'information à la Mairie. Consultation avec des parajuristes. Bibliothèques juridiques communautaires."
+    }
+  ],
+  "civic_education": [
+    {
+      "ht": "Konstitisyon ak lwa: Li ak konprann Konstitisyon Ayiti. Konnen dwa ak responsablite. Aprann pwosedi legal. Anseye timoun sou sivik.",
+      "en": "Constitution and laws: Read and understand Haiti's Constitution. Know rights and responsibilities. Learn legal procedures. Teach children about civics.",
+      "fr": "Constitution et lois: Lisez et comprenez la Constitution d'Haïti. Connaissez les droits et responsabilités. Apprenez les procédures légales. Enseignez le civisme aux enfants."
+    },
+    {
+      "ht": "Fòmasyon lidèchip kominotè: Patisipe nan atelye fòmasyon. Devlope konpetans jesyon. Aprann mobilizasyon kominotè. Kreye pwojè devlòpman lokal.",
+      "en": "Community leadership training: Participate in training workshops. Develop management skills. Learn community mobilization. Create local development projects.",
+      "fr": "Formation au leadership communautaire: Participez à des ateliers de formation. Développez des compétences en gestion. Apprenez la mobilisation communautaire. Créez des projets de développement local."
+    }
+  ]
+}

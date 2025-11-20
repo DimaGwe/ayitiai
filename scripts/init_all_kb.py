@@ -23,7 +23,8 @@ SECTORS = {
     "education": "education_kb.json",
     "fishing": "fishing_kb.json",
     "infrastructure": "infrastructure_kb.json",
-    "health": "health_kb.json"
+    "health": "health_kb.json",
+    "governance": "governance_kb.json"
 }
 
 
