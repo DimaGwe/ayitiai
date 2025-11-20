@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: ayitiai
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - ayitiai-network
+
+  # Optional: Redis for distributed caching
+  redis:
+    image: redis:7-alpine
+    container_name: ayitiai-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - ayitiai-network
+    command: redis-server --appendonly yes
+
+  # Optional: Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: ayitiai-nginx
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - app
+    networks:
+      - ayitiai-network
+
+volumes:
+  redis-data:
+
+networks:
+  ayitiai-network:
+    driver: bridge

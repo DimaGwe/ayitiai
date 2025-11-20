@@ -1,0 +1,82 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+venv/
+env/
+ENV/
+ayiti_env/
+
+# Environment files
+.env
+.env.*
+!.env.example
+!.env.production
+
+# Data and databases
+data/vector_db/
+data/processed/
+*.pkl
+*.h5
+
+# Logs
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Documentation
+docs/
+*.md
+!README.md
+
+# Tests
+tests/
+test_*.py
+*_test.py
+
+# CI/CD
+.github/
+.gitlab-ci.yml
+.travis.yml
+
+# Docker
+docker-compose.yml
+docker-compose.*.yml
+!docker-compose.prod.yml
+Dockerfile.dev
+
+# Backup files
+*.bak
+*.backup
+backups/
+
+# Temporary files
+tmp/
+temp/
+*.tmp

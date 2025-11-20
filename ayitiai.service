@@ -1,0 +1,32 @@
+[Unit]
+Description=AYITI AI - Unified LLM System for Haiti
+After=network.target
+
+[Service]
+Type=simple
+User=ayitiai
+Group=ayitiai
+WorkingDirectory=/home/ayitiai/ayitiai
+Environment="PATH=/home/ayitiai/ayitiai/venv/bin"
+ExecStart=/home/ayitiai/ayitiai/venv/bin/uvicorn api.app:app --host 0.0.0.0 --port 8000 --workers 2
+Restart=always
+RestartSec=10
+
+# Security settings
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=yes
+ReadWritePaths=/home/ayitiai/ayitiai/data /home/ayitiai/ayitiai/logs
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+
+# Logging
+StandardOutput=journal
+StandardError=journal
+SyslogIdentifier=ayitiai
+
+[Install]
+WantedBy=multi-user.target
