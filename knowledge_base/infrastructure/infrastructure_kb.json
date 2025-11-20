@@ -1,0 +1,116 @@
+{
+  "construction": [
+    {
+      "ht": "Konstriksyon rezistan tanpèt: Itilize fondasyon solid - beton oswa wòch. Twa ki byen tache. Mi solid ki ka reziste van. Kenbe kay bas pou rezistans.",
+      "en": "Storm-resistant construction: Use solid foundation - concrete or rock. Well-tied roof. Solid walls that can resist wind. Keep house low for resistance.",
+      "fr": "Construction résistante aux tempêtes: Utilisez une fondation solide - béton ou roche. Toit bien attaché. Murs solides pouvant résister au vent. Gardez la maison basse pour la résistance."
+    },
+    {
+      "ht": "Materyèl lokal: Itilize blòk fabrike lokalmandanman. Bwa sou kote si disponib. Banbou pou konstriksyon lejè. Tè konprese pou mi.",
+      "en": "Local materials: Use locally made blocks. Local wood if available. Bamboo for light construction. Compressed earth for walls.",
+      "fr": "Matériaux locaux: Utilisez des blocs fabriqués localement. Bois local si disponible. Bambou pour construction légère. Terre compressée pour les murs."
+    },
+    {
+      "ht": "Teknik antisismik: Fondasyon byen ranfòse. Kolòn an beton ame. Fè koneksyon solid ant poto ak mi. Evite mi twò wo.",
+      "en": "Anti-seismic techniques: Well-reinforced foundation. Reinforced concrete columns. Make solid connections between posts and walls. Avoid walls too high.",
+      "fr": "Techniques antisismiques: Fondation bien renforcée. Colonnes en béton armé. Faites des connexions solides entre poteaux et murs. Évitez les murs trop hauts."
+    }
+  ],
+  "water_systems": [
+    {
+      "ht": "Sistèm dlo lapli: Enstalé dal pou kolekte dlo lapli. Itilize barik oswa siten pwòp. Filtre dlo anvan sèvi. Kouvri pou evite moustik.",
+      "en": "Rainwater systems: Install gutters to collect rainwater. Use clean barrels or cisterns. Filter water before use. Cover to avoid mosquitoes.",
+      "fr": "Systèmes d'eau de pluie: Installez des gouttières pour collecter l'eau de pluie. Utilisez des barils ou citernes propres. Filtrez l'eau avant utilisation. Couvrez pour éviter les moustiques."
+    },
+    {
+      "ht": "Pwoteksyon sous dlo: Bati miray wonn sous. Enstalé ponp ki byen pwoteje. Kreye zòn pwoteksyon otou sous. Pa kite bèt pwoche.",
+      "en": "Spring protection: Build wall around spring. Install well-protected pump. Create protection zone around spring. Don't let animals approach.",
+      "fr": "Protection des sources: Construisez un mur autour de la source. Installez une pompe bien protégée. Créez une zone de protection autour de la source. Ne laissez pas les animaux s'approcher."
+    },
+    {
+      "ht": "Trete dlo: Bouyi dlo pandan 1 minit pou touye mikwòb. Itilize klowòks (2 gout pa lit). Filtre avèk twal oswa sab. Ekspoze dlo nan solèy nan boutèy transparan.",
+      "en": "Water treatment: Boil water for 1 minute to kill germs. Use bleach (2 drops per liter). Filter with cloth or sand. Expose water to sun in transparent bottles.",
+      "fr": "Traitement de l'eau: Faites bouillir l'eau pendant 1 minute pour tuer les germes. Utilisez de l'eau de Javel (2 gouttes par litre). Filtrez avec un tissu ou du sable. Exposez l'eau au soleil dans des bouteilles transparentes."
+    },
+    {
+      "ht": "Sistèm drènaj: Kreye kanal drenaj pou dlo lapli. Evite inondasyon. Netwaye kanal regilyèman. Pwoteje kont erozyon.",
+      "en": "Drainage systems: Create drainage channels for rainwater. Avoid flooding. Clean channels regularly. Protect against erosion.",
+      "fr": "Systèmes de drainage: Créez des canaux de drainage pour l'eau de pluie. Évitez les inondations. Nettoyez régulièrement les canaux. Protégez contre l'érosion."
+    }
+  ],
+  "energy": [
+    {
+      "ht": "Enèji solè: Enstalé panno solè pou elektrisite. Itilize nan zòn san kouran. Bon pou eklèraj, telefòn, radyo. Konsève batri kòrèkteman.",
+      "en": "Solar energy: Install solar panels for electricity. Use in areas without power. Good for lighting, phones, radio. Maintain batteries properly.",
+      "fr": "Énergie solaire: Installez des panneaux solaires pour l'électricité. Utilisez dans les zones sans courant. Bon pour l'éclairage, téléphones, radio. Entretenez correctement les batteries."
+    },
+    {
+      "ht": "Rechò efikas: Itilize rechò ki ekonomize bwa. Konstwi rechò amelyore ak bwik oswa tè. Diminye lafimen. Sove enèji.",
+      "en": "Efficient stoves: Use wood-saving stoves. Build improved stoves with bricks or clay. Reduce smoke. Save energy.",
+      "fr": "Réchauds efficaces: Utilisez des réchauds économes en bois. Construisez des réchauds améliorés avec des briques ou de l'argile. Réduisez la fumée. Économisez l'énergie."
+    },
+    {
+      "ht": "Biogaz: Kreye biogaz ak fimye bèt. Itilize pou kuzin ak limyè. Redwi bezwen bwa. Bon pou anviwònman.",
+      "en": "Biogas: Create biogas from animal manure. Use for cooking and light. Reduce wood needs. Good for environment.",
+      "fr": "Biogaz: Créez du biogaz à partir de fumier animal. Utilisez pour la cuisine et la lumière. Réduisez les besoins en bois. Bon pour l'environnement."
+    },
+    {
+      "ht": "Mikwo-idwoelektrik: Si gen ti rivyè, ka enstalé ti jeneratè. Pwodwi elektrisite pou kominote. Bezwen ekspètiz teknik. Chèche sipò.",
+      "en": "Micro-hydroelectric: If there's a small river, can install small generator. Produce electricity for community. Needs technical expertise. Seek support.",
+      "fr": "Micro-hydroélectrique: S'il y a une petite rivière, peut installer un petit générateur. Produire de l'électricité pour la communauté. Nécessite une expertise technique. Cherchez du soutien."
+    }
+  ],
+  "roads": [
+    {
+      "ht": "Wout kominotè: Òganize kòve pou repare wout. Kreyole kanal drènaj sou kote. Ranpli twou ak wòch ak sab. Konpakte byen.",
+      "en": "Community roads: Organize corvée to repair roads. Create drainage channels on sides. Fill holes with rocks and sand. Compact well.",
+      "fr": "Routes communautaires: Organisez une corvée pour réparer les routes. Créez des canaux de drainage sur les côtés. Remplissez les trous avec des roches et du sable. Compactez bien."
+    },
+    {
+      "ht": "Pwoteksyon wout kont lapli: Fè miray soutènman sou kolin. Kreye tè pou ralanti dlo. Plante pyebwa pou kenbe tè a.",
+      "en": "Road protection from rain: Build retaining walls on hills. Create terraces to slow water. Plant trees to hold soil.",
+      "fr": "Protection des routes contre la pluie: Construisez des murs de soutènement sur les collines. Créez des terrasses pour ralentir l'eau. Plantez des arbres pour retenir le sol."
+    }
+  ],
+  "sanitation": [
+    {
+      "ht": "Latrin amelyore: Fouye twou pwofon (3-4 mèt). Bati kabinè solid. Kouvri twou a byen. Kenbe pwòp. Lave men apre itilize.",
+      "en": "Improved latrine: Dig deep hole (3-4 meters). Build solid cabin. Cover hole well. Keep clean. Wash hands after use.",
+      "fr": "Latrine améliorée: Creusez un trou profond (3-4 mètres). Construisez une cabine solide. Couvrez bien le trou. Gardez propre. Lavez les mains après usage."
+    },
+    {
+      "ht": "Jesyon fatra: Kreye fòs pou ranmase fatra. Separe fatra òganik pou konpòs. Entere oswa boule fatra ki pa dekonpoze. Pa jete nan rivyè.",
+      "en": "Waste management: Create pit for garbage collection. Separate organic waste for compost. Bury or burn non-decomposable waste. Don't throw in rivers.",
+      "fr": "Gestion des déchets: Créez une fosse pour la collecte des ordures. Séparez les déchets organiques pour le compost. Enterrez ou brûlez les déchets non décomposables. Ne jetez pas dans les rivières."
+    },
+    {
+      "ht": "Dlo ize: Pa melanje ak dlo pwòp. Kreye ti kanal pou dlo ize. Plante bananier oswa plant ki absòbe dlo ize. Pwoteje sous dlo.",
+      "en": "Wastewater: Don't mix with clean water. Create small channels for wastewater. Plant bananas or plants that absorb wastewater. Protect water sources.",
+      "fr": "Eaux usées: Ne mélangez pas avec l'eau propre. Créez de petits canaux pour les eaux usées. Plantez des bananiers ou des plantes qui absorbent les eaux usées. Protégez les sources d'eau."
+    }
+  ],
+  "community_infrastructure": [
+    {
+      "ht": "Sant kominotè: Bati espas pou reyinyon. Itilize pou lekòl, sante, reyinyon. Konstwi ak patisipasyon kominote. Kenbe ak antretyen ansanm.",
+      "en": "Community center: Build space for meetings. Use for school, health, meetings. Build with community participation. Maintain together.",
+      "fr": "Centre communautaire: Construisez un espace pour les réunions. Utilisez pour l'école, la santé, les réunions. Construisez avec la participation de la communauté. Entretenez ensemble."
+    },
+    {
+      "ht": "Espas piblik: Kreye plas pou mache. Espas pou timoun jwe. Zòn lonbray. Pwoteje ak konsève ansanm.",
+      "en": "Public spaces: Create marketplace. Space for children to play. Shaded areas. Protect and maintain together.",
+      "fr": "Espaces publics: Créez une place de marché. Espace pour que les enfants jouent. Zones ombragées. Protégez et entretenez ensemble."
+    }
+  ],
+  "disaster_preparedness": [
+    {
+      "ht": "Preparasyon pou tanpèt: Kenbe pwovizyon dlo ak manje. Fikse objè ki ka vole. Konnen kote pou ale an sekirite. Prepare twous sekou.",
+      "en": "Storm preparation: Keep water and food supplies. Secure objects that can fly. Know where to go for safety. Prepare emergency kit.",
+      "fr": "Préparation aux tempêtes: Gardez des provisions d'eau et de nourriture. Sécurisez les objets qui peuvent voler. Sachez où aller pour la sécurité. Préparez un kit d'urgence."
+    },
+    {
+      "ht": "Preparasyon pou tranbleman tè: Idantifye kote ki an sekirite lakay. Fikse mebl lou. Prepare plan evakwasyon. Konnen kijan pou fèmen gaz ak elektrisite.",
+      "en": "Earthquake preparation: Identify safe spots at home. Secure heavy furniture. Prepare evacuation plan. Know how to turn off gas and electricity.",
+      "fr": "Préparation aux tremblements de terre: Identifiez les endroits sûrs à la maison. Sécurisez les meubles lourds. Préparez un plan d'évacuation. Sachez comment couper le gaz et l'électricité."
+    }
+  ]
+}

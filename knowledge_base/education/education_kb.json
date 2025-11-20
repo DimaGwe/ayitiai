@@ -1,0 +1,121 @@
+{
+  "curriculum": [
+    {
+      "ht": "Materyèl ansèyman an kreyòl: Itilize liv kreyòl pou ansèyman debaz. Kreye resous lokal ki adapte ak reyalite ayisyen. Entegre istwa ak kilti ayisyen nan kou yo.",
+      "en": "Kreyòl teaching materials: Use Creole books for basic teaching. Create local resources adapted to Haitian reality. Integrate Haitian history and culture into lessons.",
+      "fr": "Matériel d'enseignement en créole: Utilisez des livres créoles pour l'enseignement de base. Créez des ressources locales adaptées à la réalité haïtienne. Intégrez l'histoire et la culture haïtiennes dans les cours."
+    },
+    {
+      "ht": "STEM pou kontèks ayisyen: Montre syans ak matematik ak egzanp lokal. Itilize materyèl ki disponib - kòk, kayo, pay. Fè eksperyans senp ak dlo, plante, tè.",
+      "en": "STEM for Haitian context: Teach science and math with local examples. Use available materials - shells, rocks, straw. Do simple experiments with water, plants, soil.",
+      "fr": "STEM pour le contexte haïtien: Enseignez les sciences et les mathématiques avec des exemples locaux. Utilisez des matériaux disponibles - coquillages, cailloux, paille. Faites des expériences simples avec l'eau, les plantes, le sol."
+    },
+    {
+      "ht": "Fòmasyon vokasyonèl: Anseye metye pratik - koutiri, ebenistriy, elektrisite, mekanik. Kolabore ak atizan lokal pou fòmasyon apranti.",
+      "en": "Vocational training: Teach practical trades - sewing, carpentry, electrical, mechanics. Collaborate with local artisans for apprenticeship training.",
+      "fr": "Formation professionnelle: Enseignez des métiers pratiques - couture, menuiserie, électricité, mécanique. Collaborez avec des artisans locaux pour la formation d'apprenti."
+    }
+  ],
+  "methods": [
+    {
+      "ht": "Ansèyman san anpil resous: Itilize radyo pou distribiye kou. Kreye gwoup etid kominotè. Pataje liv ant plizyè elèv. Itilize tablo nwa tradisyonèl efikasman.",
+      "en": "Low-resource teaching: Use radio to distribute lessons. Create community study groups. Share books among multiple students. Use traditional blackboards efficiently.",
+      "fr": "Enseignement à faibles ressources: Utilisez la radio pour distribuer les leçons. Créez des groupes d'étude communautaires. Partagez des livres entre plusieurs élèves. Utilisez efficacement les tableaux noirs traditionnels."
+    },
+    {
+      "ht": "Alfabetizasyon dijital: Anseye konpitè debaz ak telefòn mobil. Itilize aplikasyon gratis pou aprann. Òganize sesyon nan sant kominotè ak entènèt.",
+      "en": "Digital literacy: Teach basic computer skills with mobile phones. Use free apps for learning. Organize sessions at community centers with internet.",
+      "fr": "Alphabétisation numérique: Enseignez les compétences informatiques de base avec les téléphones mobiles. Utilisez des applications gratuites pour apprendre. Organisez des sessions dans les centres communautaires avec internet."
+    },
+    {
+      "ht": "Aprantisaj kominotè: Envite ansyen nan klas pou pataje konesans tradisyonèl. Òganize vizit nan jaden, atizana, antrepriz lokal pou aprann.",
+      "en": "Community-based learning: Invite elders to class to share traditional knowledge. Organize visits to gardens, workshops, local businesses for learning.",
+      "fr": "Apprentissage communautaire: Invitez les aînés en classe pour partager les connaissances traditionnelles. Organisez des visites dans des jardins, ateliers, entreprises locales pour apprendre."
+    },
+    {
+      "ht": "Teknik ansèyman aktif: Itilize jwèt wòl pou anseye. Òganize diskisyon an gwoup. Ankouraje kesyon ak patisipasyon. Adapte vitès selon kapasite elèv yo.",
+      "en": "Active teaching techniques: Use role-playing to teach. Organize group discussions. Encourage questions and participation. Adapt pace to student abilities.",
+      "fr": "Techniques d'enseignement actives: Utilisez le jeu de rôle pour enseigner. Organisez des discussions de groupe. Encouragez les questions et la participation. Adaptez le rythme aux capacités des élèves."
+    }
+  ],
+  "challenges": [
+    {
+      "ht": "Limit enfrastrikti: Fè klas anba pye bwa si pa gen kay. Itilize kay kominotè. Kreye òrè fleksib pou elèv ki travay. Konstwi abri senp ak materyèl lokal.",
+      "en": "Infrastructure limitations: Hold classes under trees if no building. Use community houses. Create flexible schedules for working students. Build simple shelters with local materials.",
+      "fr": "Limitations d'infrastructure: Organisez des cours sous les arbres s'il n'y a pas de bâtiment. Utilisez des maisons communautaires. Créez des horaires flexibles pour les étudiants qui travaillent. Construisez des abris simples avec des matériaux locaux."
+    },
+    {
+      "ht": "Fòmasyon pwofesè: Òganize atelye fòmasyon ant pwofesè. Kreye gwoup sipò ant ansèyan. Itilize resous sou entènèt pou devlòpman pwofesyonèl. Pataje bon pratik.",
+      "en": "Teacher training: Organize training workshops among teachers. Create support groups among educators. Use online resources for professional development. Share best practices.",
+      "fr": "Formation des enseignants: Organisez des ateliers de formation entre enseignants. Créez des groupes de soutien entre éducateurs. Utilisez des ressources en ligne pour le développement professionnel. Partagez les meilleures pratiques."
+    },
+    {
+      "ht": "Kenbe elèv nan lekòl: Bay manje nan lekòl pou ankouraje prezans. Ede fanmi ak sipò ekonomik. Kreye pwogram aprè lekòl pou elèv ki travay. Fè lekòl enpòtan pou kominote a.",
+      "en": "Student retention: Provide school meals to encourage attendance. Help families with economic support. Create after-school programs for working students. Make school important to the community.",
+      "fr": "Rétention des élèves: Fournissez des repas scolaires pour encourager la présence. Aidez les familles avec un soutien économique. Créez des programmes après l'école pour les étudiants qui travaillent. Rendez l'école importante pour la communauté."
+    }
+  ],
+  "subjects": [
+    {
+      "ht": "Matematik pratik: Anseye kalkil ak egzanp lavi reyèl - konte lajan, mezi tè, kalkile rekòt. Itilize jwèt pou pratike operasyon debaz.",
+      "en": "Practical mathematics: Teach calculations with real-life examples - counting money, measuring land, calculating harvest. Use games to practice basic operations.",
+      "fr": "Mathématiques pratiques: Enseignez les calculs avec des exemples de la vie réelle - compter l'argent, mesurer les terres, calculer les récoltes. Utilisez des jeux pour pratiquer les opérations de base."
+    },
+    {
+      "ht": "Syans anviwònman: Etidye plant lokal, tè, dlo. Fè eksperyans ak jèminasyon semans. Obsève tan ak klima. Aprann pwoteksyon anviwònman.",
+      "en": "Environmental science: Study local plants, soil, water. Do experiments with seed germination. Observe weather and climate. Learn environmental protection.",
+      "fr": "Sciences de l'environnement: Étudiez les plantes locales, le sol, l'eau. Faites des expériences de germination des graines. Observez la météo et le climat. Apprenez la protection de l'environnement."
+    },
+    {
+      "ht": "Lang kreyòl: Devlope kapasite li ak ekri an kreyòl dabò. Anseye grammè kreyòl. Itilize literati ayisyen. Kreye pwòp tèks.",
+      "en": "Creole language: Develop reading and writing skills in Creole first. Teach Creole grammar. Use Haitian literature. Create own texts.",
+      "fr": "Langue créole: Développez d'abord les compétences de lecture et d'écriture en créole. Enseignez la grammaire créole. Utilisez la littérature haïtienne. Créez vos propres textes."
+    },
+    {
+      "ht": "Istwa Ayiti: Anseye istwa nasyonal ak fyète. Envite temwen pou pale de istwa lokal. Vizite sit istorik. Konsève tradisyon oral.",
+      "en": "Haitian history: Teach national history with pride. Invite witnesses to talk about local history. Visit historic sites. Preserve oral traditions.",
+      "fr": "Histoire d'Haïti: Enseignez l'histoire nationale avec fierté. Invitez des témoins à parler de l'histoire locale. Visitez des sites historiques. Préservez les traditions orales."
+    }
+  ],
+  "resources": [
+    {
+      "ht": "Resous gratis sou entènèt: Khan Academy an kreyòl, CK-12, Wikipedia kreyòl. Telechaje kontni pou itilize san entènèt. Pataje sou kle USB.",
+      "en": "Free online resources: Khan Academy in Creole, CK-12, Creole Wikipedia. Download content for offline use. Share on USB drives.",
+      "fr": "Ressources gratuites en ligne: Khan Academy en créole, CK-12, Wikipédia créole. Téléchargez du contenu pour une utilisation hors ligne. Partagez sur des clés USB."
+    },
+    {
+      "ht": "Sipò òganizasyon: MENFP (Ministè Edikasyon), FONHEP, pwogram UNESCO. Chèche bous pou fòmasyon pwofesè. Resous materyèl pou lekòl.",
+      "en": "Organization support: MENFP (Ministry of Education), FONHEP, UNESCO programs. Seek scholarships for teacher training. Material resources for schools.",
+      "fr": "Soutien des organisations: MENFP (Ministère de l'Éducation), FONHEP, programmes de l'UNESCO. Cherchez des bourses pour la formation des enseignants. Ressources matérielles pour les écoles."
+    },
+    {
+      "ht": "Bibliyotèk kominotè: Kreye ti bibliyotèk nan lekòl. Òganize echanj liv ant elèv. Pataje resous dijital. Envite volontè pou li ak timoun.",
+      "en": "Community libraries: Create small libraries in schools. Organize book exchanges among students. Share digital resources. Invite volunteers to read with children.",
+      "fr": "Bibliothèques communautaires: Créez de petites bibliothèques dans les écoles. Organisez des échanges de livres entre élèves. Partagez des ressources numériques. Invitez des bénévoles à lire avec les enfants."
+    }
+  ],
+  "early_childhood": [
+    {
+      "ht": "Edikasyon timoun piti: Itilize chan, jwèt, istwa pou aprann. Devlope kapasite motè ak aktivite fizik. Anseye ijyèn debaz. Kreye anviwònman sekirize.",
+      "en": "Early childhood education: Use songs, games, stories for learning. Develop motor skills with physical activities. Teach basic hygiene. Create safe environment.",
+      "fr": "Éducation de la petite enfance: Utilisez des chansons, des jeux, des histoires pour apprendre. Développez la motricité avec des activités physiques. Enseignez l'hygiène de base. Créez un environnement sûr."
+    },
+    {
+      "ht": "Enplikasyon paran: Ankouraje paran li bay timoun. Òganize reyinyon paran-pwofesè. Montre paran kijan pou ede ak devwa. Kreye aktivite fanmi.",
+      "en": "Parent involvement: Encourage parents to read to children. Organize parent-teacher meetings. Show parents how to help with homework. Create family activities.",
+      "fr": "Implication des parents: Encouragez les parents à lire aux enfants. Organisez des réunions parents-enseignants. Montrez aux parents comment aider avec les devoirs. Créez des activités familiales."
+    }
+  ],
+  "adult_education": [
+    {
+      "ht": "Alfabetizasyon granmoun: Òganize klas aswè pou travayè. Itilize egzanp pratik - li papye, kontra, dosye. Anseye an ti gwoup. Respekte eksperyans yo.",
+      "en": "Adult literacy: Organize evening classes for workers. Use practical examples - reading papers, contracts, documents. Teach in small groups. Respect their experience.",
+      "fr": "Alphabétisation des adultes: Organisez des cours du soir pour les travailleurs. Utilisez des exemples pratiques - lire des papiers, des contrats, des documents. Enseignez en petits groupes. Respectez leur expérience."
+    },
+    {
+      "ht": "Fòmasyon teknik: Pwogram kout pou aprann metye espesifik. Sètifika konpetans. Kolabore ak antrepriz pou anplwa. Sipò pou kòmanse biznis.",
+      "en": "Technical training: Short programs to learn specific trades. Certify skills. Collaborate with businesses for employment. Support for starting businesses.",
+      "fr": "Formation technique: Programmes courts pour apprendre des métiers spécifiques. Certifiez les compétences. Collaborez avec les entreprises pour l'emploi. Soutien pour démarrer une entreprise."
+    }
+  ]
+}

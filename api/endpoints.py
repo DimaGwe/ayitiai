@@ -12,6 +12,7 @@ from datetime import datetime
 from core.llm_integration import llm
 from core.multilingual_handler import multilingual
 from core.context_router import router
+from core.conversation_memory import conversation_memory
 from rag_system.retrieval_engine import retrieval_engine
 
 logger = logging.getLogger(__name__)
@@ -31,7 +32,7 @@ class QueryRequest(BaseModel):
     class Config:
         json_schema_extra = {
             "example": {
-                "message": "Kijan mwen ka amelyore pwodiksyon agrikòl mwen?",
+                "message": "Kijan mwen ka amelyore pwodiksyon agrikï¿½l mwen?",
                 "language_preference": "ht",
                 "explicit_sectors": ["agriculture"]
             }
@@ -41,6 +42,7 @@ class QueryRequest(BaseModel):
 class QueryResponse(BaseModel):
     """Query response model"""
     response: str = Field(..., description="AI-generated response")
+    conversation_id: str = Field(..., description="Conversation ID for follow-up queries")
     sectors_used: List[str] = Field(..., description="Sectors used for response")
     primary_sector: str = Field(..., description="Primary sector detected")
     sources_consulted: List[str] = Field(..., description="Knowledge sources consulted")
@@ -64,6 +66,14 @@ async def process_query(request: QueryRequest):
     try:
         start_time = datetime.now()
 
+        # Handle conversation ID
+        conv_id = request.conversation_id
+        if not conv_id:
+            conv_id = conversation_memory.create_conversation_id()
+
+        # Get conversation history
+        conversation_history = conversation_memory.get_recent_messages(conv_id, n=5)
+
         # Detect language
         if request.language_preference:
             detected_language = request.language_preference
@@ -75,14 +85,14 @@ async def process_query(request: QueryRequest):
 
         logger.info(
             f"Processing query in {detected_language} "
-            f"(confidence: {language_confidence:.2f})"
+            f"(confidence: {language_confidence:.2f}, conv_id: {conv_id})"
         )
 
-        # Detect sectors
+        # Detect sectors (considering conversation history)
         if request.explicit_sectors:
             sectors = [(sector, 1.0) for sector in request.explicit_sectors]
         else:
-            sectors = router.analyze_query_intent(request.message)
+            sectors = router.analyze_query_intent(request.message, conversation_history)
 
         primary_sector = router.get_primary_sector(sectors) or "general"
 
@@ -99,7 +109,7 @@ async def process_query(request: QueryRequest):
             primary_sector
         )
 
-        # Build messages for LLM
+        # Build messages for LLM with conversation context
         system_context = f"""Context from knowledge base:
 {rag_results['context']}
 
@@ -108,10 +118,13 @@ Cultural considerations:
 
 Please provide a helpful, practical response based on this context."""
 
-        messages = [
-            {"role": "user", "content": request.message},
-            {"role": "system", "content": system_context}
+        messages = conversation_history + [
+            {"role": "user", "content": request.message}
         ]
+
+        # Add system context
+        if messages:
+            messages.insert(0, {"role": "system", "content": system_context})
 
         # Generate response
         llm_response = await llm.generate_response(
@@ -127,6 +140,28 @@ Please provide a helpful, practical response based on this context."""
                 detail=f"LLM error: {llm_response['error']}"
             )
 
+        # Store in conversation memory
+        conversation_memory.add_message(
+            conversation_id=conv_id,
+            role="user",
+            content=request.message,
+            metadata={
+                "language": detected_language,
+                "sectors": [s for s, _ in sectors],
+                "primary_sector": primary_sector
+            }
+        )
+
+        conversation_memory.add_message(
+            conversation_id=conv_id,
+            role="assistant",
+            content=llm_response['response'],
+            metadata={
+                "cost": llm_response['cost'],
+                "sectors_used": rag_results['sectors_used']
+            }
+        )
+
         # Calculate processing time
         processing_time = (datetime.now() - start_time).total_seconds()
 
@@ -138,6 +173,7 @@ Please provide a helpful, practical response based on this context."""
         # Build response
         return QueryResponse(
             response=llm_response['response'],
+            conversation_id=conv_id,
             sectors_used=rag_results['sectors_used'],
             primary_sector=primary_sector,
             sources_consulted=[s['sector'] for s in rag_results['sources']],
@@ -212,17 +248,17 @@ async def list_sectors():
         "agriculture": {
             "name": "Agriculture",
             "description": "Farming, crops, livestock, and sustainable practices",
-            "keywords_example": ["jaden", "plante", "rekòt", "farming", "crops"]
+            "keywords_example": ["jaden", "plante", "rekï¿½t", "farming", "crops"]
         },
         "education": {
             "name": "Education",
             "description": "Schools, learning, curriculum, and teaching methods",
-            "keywords_example": ["lekòl", "aprann", "edikasyon", "school", "learning"]
+            "keywords_example": ["lekï¿½l", "aprann", "edikasyon", "school", "learning"]
         },
         "fishing": {
             "name": "Fishing",
             "description": "Fishing, aquaculture, and marine resources",
-            "keywords_example": ["lapèch", "pwason", "lanmè", "fishing", "fish"]
+            "keywords_example": ["lapï¿½ch", "pwason", "lanmï¿½", "fishing", "fish"]
         },
         "infrastructure": {
             "name": "Infrastructure",
@@ -232,12 +268,12 @@ async def list_sectors():
         "health": {
             "name": "Health",
             "description": "Healthcare, medicine, prevention, and wellness",
-            "keywords_example": ["sante", "malad", "doktè", "health", "medicine"]
+            "keywords_example": ["sante", "malad", "doktï¿½", "health", "medicine"]
         },
         "governance": {
             "name": "Governance",
             "description": "Government, laws, regulations, and civic participation",
-            "keywords_example": ["gouvènman", "lwa", "dwa", "government", "law"]
+            "keywords_example": ["gouvï¿½nman", "lwa", "dwa", "government", "law"]
         }
     }
 
@@ -254,10 +290,10 @@ async def list_languages():
     """
     return {
         "supported": [
-            {"code": "ht", "name": "Haitian Creole (Kreyòl)", "priority": "primary"},
-            {"code": "fr", "name": "French (Français)", "priority": "secondary"},
+            {"code": "ht", "name": "Haitian Creole (Kreyï¿½l)", "priority": "primary"},
+            {"code": "fr", "name": "French (Franï¿½ais)", "priority": "secondary"},
             {"code": "en", "name": "English", "priority": "secondary"},
-            {"code": "es", "name": "Spanish (Español)", "priority": "secondary"}
+            {"code": "es", "name": "Spanish (Espaï¿½ol)", "priority": "secondary"}
         ],
         "default": "ht"
     }
@@ -281,3 +317,92 @@ async def reload_knowledge_base(sector: str):
         "message": f"Knowledge base reload for {sector} would be triggered here",
         "sector": sector
     }
+
+
+@router.get("/conversation/{conversation_id}")
+async def get_conversation(conversation_id: str):
+    """
+    Get conversation history
+
+    Args:
+        conversation_id: Conversation ID
+
+    Returns:
+        Conversation history and statistics
+    """
+    try:
+        history = conversation_memory.get_conversation_history(
+            conversation_id,
+            include_metadata=True
+        )
+
+        stats = conversation_memory.get_conversation_stats(conversation_id)
+
+        if not stats:
+            raise HTTPException(
+                status_code=404,
+                detail=f"Conversation {conversation_id} not found"
+            )
+
+        return {
+            "conversation_id": conversation_id,
+            "history": history,
+            "stats": stats
+        }
+
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error getting conversation: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error getting conversation: {str(e)}"
+        )
+
+
+@router.delete("/conversation/{conversation_id}")
+async def delete_conversation(conversation_id: str):
+    """
+    Delete conversation history
+
+    Args:
+        conversation_id: Conversation ID
+
+    Returns:
+        Success message
+    """
+    try:
+        conversation_memory.clear_conversation(conversation_id)
+
+        return {
+            "status": "success",
+            "message": f"Conversation {conversation_id} deleted",
+            "conversation_id": conversation_id
+        }
+
+    except Exception as e:
+        logger.error(f"Error deleting conversation: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error deleting conversation: {str(e)}"
+        )
+
+
+@router.get("/stats/conversations")
+async def get_conversation_stats():
+    """
+    Get statistics about all conversations
+
+    Returns:
+        Overall conversation statistics
+    """
+    try:
+        stats = conversation_memory.get_all_stats()
+        return stats
+
+    except Exception as e:
+        logger.error(f"Error getting conversation stats: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error getting conversation stats: {str(e)}"
+        )

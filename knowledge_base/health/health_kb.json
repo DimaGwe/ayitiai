@@ -1,0 +1,142 @@
+{
+  "primary_care": [
+    {
+      "ht": "Swen debaz: Lave men souvan ak savon. Bwè dlo pwòp. Manje manje ki byen kwit. Kenbe kay pwòp. Dòmi ase.",
+      "en": "Basic care: Wash hands often with soap. Drink clean water. Eat well-cooked food. Keep house clean. Sleep enough.",
+      "fr": "Soins de base: Lavez souvent les mains avec du savon. Buvez de l'eau propre. Mangez des aliments bien cuits. Gardez la maison propre. Dormez suffisamment."
+    },
+    {
+      "ht": "Siy danje: Lafyèv ki pa sispann. Dyare pandan plizyè jou. Difkilte pou respire. Doulè grav. Ale kay doktè oubyen lopital touswit.",
+      "en": "Warning signs: Fever that won't stop. Diarrhea for several days. Difficulty breathing. Severe pain. Go to doctor or hospital immediately.",
+      "fr": "Signes d'alerte: Fièvre qui ne s'arrête pas. Diarrhée pendant plusieurs jours. Difficulté à respirer. Douleur sévère. Allez chez le docteur ou à l'hôpital immédiatement."
+    }
+  ],
+  "prevention": [
+    {
+      "ht": "Vaksen: Vaksinasyon timoun se enpòtan. Pwoteje kont maladi grav. Swiv kalandriye vaksen. Ale nan sant sante pou vaksinasyon gratis.",
+      "en": "Vaccines: Child vaccination is important. Protects against serious diseases. Follow vaccine calendar. Go to health center for free vaccinations.",
+      "fr": "Vaccins: La vaccination des enfants est importante. Protège contre les maladies graves. Suivez le calendrier vaccinal. Allez au centre de santé pour des vaccinations gratuites."
+    },
+    {
+      "ht": "Prevansyon moustik: Kouvri barik dlo. Vide dlo ki kanpe. Dòmi anba moustikè. Itilize repulsif. Pwoteje timoun ak fanm ansent.",
+      "en": "Mosquito prevention: Cover water barrels. Empty standing water. Sleep under mosquito net. Use repellent. Protect children and pregnant women.",
+      "fr": "Prévention des moustiques: Couvrez les barils d'eau. Videz l'eau stagnante. Dormez sous une moustiquaire. Utilisez un répulsif. Protégez les enfants et les femmes enceintes."
+    },
+    {
+      "ht": "Ijyèn pèsonèl: Benyen chak jou. Brosse dan de fwa pa jou. Lave men avan manje ak apre twalèt. Kenbe rad pwòp. Koupe zong kout.",
+      "en": "Personal hygiene: Bathe daily. Brush teeth twice a day. Wash hands before eating and after toilet. Keep clothes clean. Cut nails short.",
+      "fr": "Hygiène personnelle: Baignez-vous quotidiennement. Brossez-vous les dents deux fois par jour. Lavez-vous les mains avant de manger et après les toilettes. Gardez les vêtements propres. Coupez les ongles courts."
+    }
+  ],
+  "nutrition": [
+    {
+      "ht": "Manje ekilibre: Manje legim chak jou. Pwoteyin - pwa, vyann, pwason, ze. Fwi pou vitamin. Pa twò sik ni sèl. Bwè anpil dlo.",
+      "en": "Balanced diet: Eat vegetables daily. Protein - beans, meat, fish, eggs. Fruit for vitamins. Not too much sugar or salt. Drink plenty water.",
+      "fr": "Alimentation équilibrée: Mangez des légumes quotidiennement. Protéines - haricots, viande, poisson, œufs. Fruits pour les vitamines. Pas trop de sucre ou de sel. Buvez beaucoup d'eau."
+    },
+    {
+      "ht": "Nitrisyon timoun: Tete pandan 6 mwa. Kòmanse bay lòt manje apre 6 mwa. Bay manje rich - bouyi, legim, fwi. Evite manje ki pa bon pou sante.",
+      "en": "Child nutrition: Breastfeed for 6 months. Start other foods after 6 months. Give nutritious food - porridge, vegetables, fruit. Avoid unhealthy food.",
+      "fr": "Nutrition infantile: Allaitez pendant 6 mois. Commencez d'autres aliments après 6 mois. Donnez des aliments nutritifs - bouillie, légumes, fruits. Évitez les aliments malsains."
+    },
+    {
+      "ht": "Fanm ansent: Manje plis - bezwen fòs pou tibebe a. Pran vitamin prenatal. Manje fèy vèt, pwa, fwi. Evite alkòl ak siga. Ale lopital regilyèman.",
+      "en": "Pregnant women: Eat more - need strength for baby. Take prenatal vitamins. Eat green leaves, beans, fruit. Avoid alcohol and cigarettes. Go to hospital regularly.",
+      "fr": "Femmes enceintes: Mangez plus - besoin de force pour le bébé. Prenez des vitamines prénatales. Mangez des feuilles vertes, des haricots, des fruits. Évitez l'alcool et les cigarettes. Allez régulièrement à l'hôpital."
+    }
+  ],
+  "common_illnesses": [
+    {
+      "ht": "Dyare: Bwè anpil dlo ak sèl sivik (SRO). Kontinye manje. Si dyare pa sispann oswa gen san, ale lopital. Bay tibebe tete souvan.",
+      "en": "Diarrhea: Drink lots of water with oral rehydration salts (ORS). Continue eating. If diarrhea doesn't stop or has blood, go to hospital. Breastfeed baby often.",
+      "fr": "Diarrhée: Buvez beaucoup d'eau avec des sels de réhydratation orale (SRO). Continuez à manger. Si la diarrhée ne s'arrête pas ou contient du sang, allez à l'hôpital. Allaitez souvent le bébé."
+    },
+    {
+      "ht": "Grip ak lafyèv: Repoze kò a. Bwè anpil dlo. Pran medikaman pou lafyèv (paracetamol). Si lafyèv wo anpil oswa pa desann, ale lopital.",
+      "en": "Flu and fever: Rest the body. Drink lots of water. Take fever medicine (paracetamol). If fever very high or doesn't go down, go to hospital.",
+      "fr": "Grippe et fièvre: Reposez le corps. Buvez beaucoup d'eau. Prenez un médicament contre la fièvre (paracétamol). Si la fièvre est très élevée ou ne baisse pas, allez à l'hôpital."
+    },
+    {
+      "ht": "Enfeksyon po: Lave ak dlo pwòp ak savon. Mete antiseptik. Kouvri ak panseman pwòp. Si enfle oswa gen pip, ale lopital.",
+      "en": "Skin infections: Wash with clean water and soap. Apply antiseptic. Cover with clean bandage. If swollen or has pus, go to hospital.",
+      "fr": "Infections de la peau: Lavez avec de l'eau propre et du savon. Appliquez un antiseptique. Couvrez avec un pansement propre. Si gonflé ou avec du pus, allez à l'hôpital."
+    }
+  ],
+  "traditional_medicine": [
+    {
+      "ht": "Plant medisin lokal: Asowosi pou tou, lafyèv. Ti zeb pou refwadisman. Korosòl pou kalme. Toujou konsidere medikaman modènn tou.",
+      "en": "Local medicinal plants: Asosi for cough, fever. Lemongrass for colds. Soursop for calming. Always consider modern medicine too.",
+      "fr": "Plantes médicinales locales: Asosi pour la toux, la fièvre. Citronnelle pour les rhumes. Corossol pour calmer. Considérez toujours aussi la médecine moderne."
+    },
+    {
+      "ht": "Konbine medsin tradisyonèl ak modènn: Respe konèsans tradisyonèl. Men ale lopital pou maladi grav. Pa sispann medikaman san konsiltasyon.",
+      "en": "Combine traditional and modern medicine: Respect traditional knowledge. But go to hospital for serious illness. Don't stop medication without consultation.",
+      "fr": "Combinez médecine traditionnelle et moderne: Respectez les connaissances traditionnelles. Mais allez à l'hôpital pour les maladies graves. N'arrêtez pas les médicaments sans consultation."
+    }
+  ],
+  "maternal_health": [
+    {
+      "ht": "Swen pandan gwosès: Kòmanse konsiltasyon bonè depi byen bonè. Ale lopital omwen 4 fwa. Pran vitamin. Manje byen. Evite travay di.",
+      "en": "Prenatal care: Start prenatal consultations early. Go to hospital at least 4 times. Take vitamins. Eat well. Avoid hard work.",
+      "fr": "Soins prénatals: Commencez les consultations prénatales tôt. Allez à l'hôpital au moins 4 fois. Prenez des vitamines. Mangez bien. Évitez le travail dur."
+    },
+    {
+      "ht": "Akouchman an sekirite: Akouche nan lopital oswa ak matwonn trene. Prepare lajan pou transpò ak emerjansi. Konnen siy danje - sèyman, doulè, tansyon wo.",
+      "en": "Safe delivery: Deliver at hospital or with trained midwife. Prepare money for transport and emergencies. Know danger signs - bleeding, pain, high blood pressure.",
+      "fr": "Accouchement sûr: Accouchez à l'hôpital ou avec une sage-femme formée. Préparez de l'argent pour le transport et les urgences. Connaissez les signes de danger - saignement, douleur, hypertension."
+    },
+    {
+      "ht": "Apre akouchman: Repoze pou 40 jou. Tete tibebe a. Manje byen pou gen fòs. Ale lopital si gen pwoblèm. Planifye fanmi.",
+      "en": "After delivery: Rest for 40 days. Breastfeed baby. Eat well to have strength. Go to hospital if problems. Plan family.",
+      "fr": "Après l'accouchement: Reposez-vous pendant 40 jours. Allaitez le bébé. Mangez bien pour avoir de la force. Allez à l'hôpital en cas de problèmes. Planifiez la famille."
+    }
+  ],
+  "child_health": [
+    {
+      "ht": "Swen tibebe: Tete sèlman pandan 6 mwa. Vaksinasyon alè. Kenbe pwòp. Siveye kwasans. Ale klinik regilyèman.",
+      "en": "Baby care: Breastfeed only for 6 months. Vaccination on time. Keep clean. Monitor growth. Go to clinic regularly.",
+      "fr": "Soins du bébé: Allaitez uniquement pendant 6 mois. Vaccination à temps. Gardez propre. Surveillez la croissance. Allez régulièrement à la clinique."
+    },
+    {
+      "ht": "Maladi timoun komen: Dyare, grip, malaria, vè. Ale lopital rapidman. Pa Bay medikaman granmoun. Swiv preskrisyon doktè.",
+      "en": "Common childhood illnesses: Diarrhea, flu, malaria, worms. Go to hospital quickly. Don't give adult medicine. Follow doctor's prescription.",
+      "fr": "Maladies infantiles courantes: Diarrhée, grippe, paludisme, vers. Allez rapidement à l'hôpital. Ne donnez pas de médicaments pour adultes. Suivez la prescription du médecin."
+    }
+  ],
+  "chronic_diseases": [
+    {
+      "ht": "Tansyon: Diminye sèl. Manje legim ak fwi. Fè egzèsis. Pa twò grès. Pran medikaman regilyèman. Mezire tansyon souvan.",
+      "en": "Hypertension: Reduce salt. Eat vegetables and fruit. Exercise. Not too fat. Take medication regularly. Measure blood pressure often.",
+      "fr": "Hypertension: Réduisez le sel. Mangez des légumes et des fruits. Faites de l'exercice. Pas trop gras. Prenez régulièrement les médicaments. Mesurez souvent la tension artérielle."
+    },
+    {
+      "ht": "Dyabèt: Kontwole sik. Manje manje san anpil sik. Fè egzèsis. Pran medikaman. Tcheke sik nan san regilyèman. Pwoteje pye.",
+      "en": "Diabetes: Control sugar. Eat food without much sugar. Exercise. Take medication. Check blood sugar regularly. Protect feet.",
+      "fr": "Diabète: Contrôlez le sucre. Mangez des aliments sans beaucoup de sucre. Faites de l'exercice. Prenez des médicaments. Vérifiez régulièrement la glycémie. Protégez les pieds."
+    }
+  ],
+  "mental_health": [
+    {
+      "ht": "Sante mantal: Pale avèk moun ou fè konfyans. Pa kenbe pwoblèm nan kè. Jwenn sipò nan fanmi ak kominote. Priye oswa medite. Chèche èd pwofesyonèl si bezwen.",
+      "en": "Mental health: Talk with people you trust. Don't keep problems inside. Find support in family and community. Pray or meditate. Seek professional help if needed.",
+      "fr": "Santé mentale: Parlez avec des personnes de confiance. Ne gardez pas les problèmes en vous. Trouvez du soutien dans la famille et la communauté. Priez ou méditez. Cherchez de l'aide professionnelle si nécessaire."
+    },
+    {
+      "ht": "Jesyon estrès: Pran tan pou rilakse. Fè bagay ki fè w plezi. Dòmi ase. Fè egzèsis. Evite alkòl ak dwòg. Pale sou sa ki deranje w.",
+      "en": "Stress management: Take time to relax. Do things you enjoy. Sleep enough. Exercise. Avoid alcohol and drugs. Talk about what bothers you.",
+      "fr": "Gestion du stress: Prenez le temps de vous détendre. Faites des choses que vous aimez. Dormez suffisamment. Faites de l'exercice. Évitez l'alcool et les drogues. Parlez de ce qui vous dérange."
+    }
+  ],
+  "health_resources": [
+    {
+      "ht": "Kote pou jwenn èd: Sant sante kominotè, lopital piblik, klinik ONG. Ministè Sante Piblik (MSPP). Liy telefòn èd. Ajans kominotè.",
+      "en": "Where to find help: Community health centers, public hospitals, NGO clinics. Ministry of Public Health (MSPP). Help hotlines. Community agents.",
+      "fr": "Où trouver de l'aide: Centres de santé communautaires, hôpitaux publics, cliniques ONG. Ministère de la Santé Publique (MSPP). Lignes d'aide téléphonique. Agents communautaires."
+    },
+    {
+      "ht": "Sèvis gratis: Vaksinasyon timoun gratis. Konsiltasyon pou fanm ansent. Planifikasyon fanmi. Tès VIH/SIDA. Kèk medikaman gratis.",
+      "en": "Free services: Free child vaccination. Consultation for pregnant women. Family planning. HIV/AIDS testing. Some free medications.",
+      "fr": "Services gratuits: Vaccination gratuite des enfants. Consultation pour femmes enceintes. Planification familiale. Test VIH/SIDA. Certains médicaments gratuits."
+    }
+  ]
+}
